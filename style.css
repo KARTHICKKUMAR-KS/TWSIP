@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    color: #050505;
+    cursor:grab;
+}
+.searchbar{
+    display: flex;
+    border: solid black 2px;
+    width: 30%;
+    padding: 15px;
+    justify-content: space-around;
+    border-radius: 30px;
+    transition-duration: 1s;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    align-items: center;
+}
+.searchbar:hover{
+    transform: scale(1.05);
+    color: #ff4668;
+}
+.filter{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+    background-color:white;
+    text-decoration: none;
+}
+.filterbox:hover{
+    color: #ff4668;
+}
+.hotels{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
+    transition-duration: 20ms;
+}
+.footer{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+img{
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+.login:hover{
+    color: #ff4668;
+}
+.logo:hover{
+    color: rgb(247, 11, 11);
+}
+
+.login{
+    cursor: pointer;
+}
+
+
+.button-overlay {
+    position: relative;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+.button-overlay button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(246, 19, 19);
+    color: white;
+    cursor: pointer;
+}
+
+.button-overlay h1{
+    text-align: center;
+    color: #000;
+}
+
+.button-overlay p{
+    font-style: italic;
+    text-size-adjust: 20px;
+    color: #000;
+}
+
+.button-overlay button:hover{
+    background-color: white;
+    color: rgb(246, 19, 19);
+}
+
+.filter a{
+    text-decoration: none;
+}
+
+.first{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+.outline{
+    border: 2px solid #000; 
+    padding: 10px; 
+    background-color: #f2f2f2;   
+}
+
+.mainimg{
+    margin-left: 350px;
+}
+
+.sociallink{
+    margin-bottom: 50px;
+    size: 30px;
+
+}
+/* .bttn{
+    margin-left: 1450px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    bottom: 5px;
+} */
+.hotelsbox{
+    border: solid 2px;
+}
